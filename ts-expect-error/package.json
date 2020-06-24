@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "tsc39": "docker run -v `pwd`:`pwd` -w `pwd` tekmi/tsc39 tsc",
+    "tsc38": "docker run -v `pwd`:`pwd` -w `pwd` tekmi/tsc38 tsc"
+  }
+}

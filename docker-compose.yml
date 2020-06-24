@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  tsc39:
+    build:
+      context: .
+      target: tsc39_node
+    image: tekmi/tsc39
+
+  tsc38:
+    build:
+      context: .
+      target: tsc38_node
+    image: tekmi/tsc38
