@@ -1,4 +1,4 @@
-import {iCanAddTwoNumbers} from "./helper";
+import { iCanAddTwoNumbers } from './helper';
 
 // @ts-expect-error
-console.log(iCanAddTwoNumbers(1,2));
+console.log(iCanAddTwoNumbers(1, 2));
